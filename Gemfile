@@ -24,11 +24,12 @@ group :test do
 end
 
 group :development do
+  gem 'pry'
   gem 'hpricot'
-  gem "autotest"
-  gem "autotest-rails-pure"
-  gem "autotest-fsevent"
-  gem "autotest-growl"
+  gem 'autotest'
+  gem 'autotest-rails-pure'
+  gem 'autotest-fsevent'
+  gem 'autotest-growl'
   gem 'rspec-rails'
   gem 'ruby_parser'
 end
